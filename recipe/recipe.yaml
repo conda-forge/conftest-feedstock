@@ -1,6 +1,6 @@
 context:
   name: conftest
-  version: "0.63.0"
+  version: "0.64.0"
 
 package:
   name: ${{ name|lower }}
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://github.com/open-policy-agent/${{ name }}/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: eb182a93a0d58533bbfc3d50e3c64bf825426c65511a45f3a8f8ef995cbff6ae
+  sha256: 9fda76a9f7d151f3ac8ccddd713e059490f291efaff6351d1b806ab0f4a5dc10
   target_directory: src
 
 build:
